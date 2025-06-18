@@ -86,3 +86,36 @@ button:hover{
     color: #fff;
     margin-top: 10px;
 }
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+    
+    #temp {
+        font-size: 42px;
+    }
+    
+    #weather-icon {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .hourly-item {
+        width: 60px;
+    }
+}
+
+@media (max-width: 350px) {
+    #temp {
+        font-size: 36px;
+    }
+    
+    #weather-info {
+        font-size: 16px;
+    }
+    
+    .hourly-item {
+        width: 55px;
+        font-size: 14px;
+    }
+}
